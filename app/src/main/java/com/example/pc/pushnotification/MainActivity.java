@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
                     .setSmallIcon(R.drawable.pdaiconimg)
                     .setContentTitle("Hurray! It is working...")
                     .setContentText("Your first notification...")
-                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);  // venkatesh
 
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/"));
           //  Intent intent = new Intent(getApplicationContext(), SecondActivityScreen.class);
